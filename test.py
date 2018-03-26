@@ -5,7 +5,7 @@ import requests
 req= requests.get('https://www.cryptocompare.com/api/data/coinlist/%27)
 donnee=req.json()
 l=donnee['Data']
-user = input("quel crypto vous interesse chere cyberinvestisseur du deepweb ?\n")
+user = input("quel crypto vous interesse  mr.cyberinvestisseur du deepweb ?\n")
 if(user=="liste"):
     for i in l:
         print(l[i]['Symbol'])
